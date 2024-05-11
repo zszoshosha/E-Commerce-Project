@@ -1,4 +1,4 @@
-import { CssBaseline, ThemeProvider } from "@mui/material";
+import { Box, CssBaseline, ThemeProvider } from "@mui/material";
 import { ColorModeContext, useMode } from "./theme";
 import MainHeading from "./components/header/MainHeading";
 import Hero from "./components/hero/Hero";
@@ -17,7 +17,9 @@ function App() {
       >
         <CssBaseline />
         <MainHeading />
-        <Hero/>
+<Box>
+          <Hero />
+</Box>
       </ThemeProvider>
     </ColorModeContext.Provider>
   );

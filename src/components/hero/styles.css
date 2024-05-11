@@ -21,6 +21,13 @@
   object-fit: cover;
 }
 
+.swiper-slide img:hover{
+  cursor: grab;
+}
+
+.swiper-slide img:active{
+  cursor: grabbing;
+}
 
 @media (max-width: 600px){
   .parent-slider img{

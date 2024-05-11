@@ -34,6 +34,7 @@ const Links = ({ Name }) => {
           left: "50%",
           transform: "translateX(-50%)",
           display: "none",
+          zIndex:"2",
           ".MuiTypography-root":{fontSize:"14px",fontWeight:300}
         }}
       >
